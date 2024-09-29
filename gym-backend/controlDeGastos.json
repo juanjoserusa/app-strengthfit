@@ -1,0 +1,20 @@
+{
+  "gastos": [
+    {
+      "id": 1727598112926,
+      "description": "12",
+      "amount": 22,
+      "date": "2024-09-03",
+      "type": "Ingreso"
+    }
+  ],
+  "fixedGastos": [
+    {
+      "id": 1727598094640,
+      "description": "1",
+      "amount": 22,
+      "date": "2024-09-19",
+      "type": "Gasto Fijo"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+const retosIniciales = [
+  // Retos de Asistencia
+  { id: 1, titulo: 'Asiste 3 días seguidos', descripcion: 'Asiste 3 días seguidos al gimnasio.', puntos: 30 },
+  { id: 2, titulo: 'Asiste 5 días en una semana', descripcion: 'Asiste 5 días en una misma semana.', puntos: 50 },
+  { id: 3, titulo: 'Reto del Mes', descripcion: 'Asiste 20 días en un mes.', puntos: 100 },
+
+  // Retos de PECHO
+  { id: 4, titulo: 'Press banca barra', descripcion: 'Realiza 4 series de 10 repeticiones de press banca con barra.', puntos: 40 },
+  { id: 5, titulo: 'Press mancuerna horizontal', descripcion: 'Realiza 4 series de 12 repeticiones de press con mancuerna horizontal.', puntos: 50 },
+  { id: 6, titulo: 'Press inclinado barra', descripcion: 'Haz 4 series de 8 repeticiones de press inclinado con barra.', puntos: 60 },
+  { id: 7, titulo: 'Press declinado con barra', descripcion: 'Realiza 4 series de 10 repeticiones de press declinado con barra.', puntos: 50 },
+  { id: 8, titulo: 'Apertura mancuerna banco', descripcion: 'Realiza 3 series de 15 repeticiones de apertura con mancuerna en banco.', puntos: 40 },
+
+  // Retos de BICEPS
+  { id: 9, titulo: 'Curl barra', descripcion: 'Haz 3 series de 12 repeticiones de curl con barra.', puntos: 40 },
+  { id: 10, titulo: 'Curl mancuerna', descripcion: 'Haz 3 series de 12 repeticiones de curl con mancuerna.', puntos: 40 },
+  { id: 11, titulo: 'Martillo mancuerna', descripcion: 'Realiza 3 series de 10 repeticiones de curl martillo con mancuerna.', puntos: 40 },
+  { id: 12, titulo: 'Banco Scott', descripcion: 'Haz 3 series de 12 repeticiones de curl en Banco Scott.', puntos: 50 },
+
+  // Retos de TRICEPS
+  { id: 13, titulo: 'Frances barra', descripcion: 'Realiza 3 series de 12 repeticiones de triceps francés con barra.', puntos: 40 },
+  { id: 14, titulo: 'Polea cuerda', descripcion: 'Haz 3 series de 15 repeticiones de polea con cuerda.', puntos: 40 },
+  { id: 15, titulo: 'Fondo', descripcion: 'Haz 3 series de 10 fondos para triceps.', puntos: 50 },
+
+  // Retos de ESPALDA
+  { id: 16, titulo: 'Dominadas', descripcion: 'Completa 3 series de 8 dominadas.', puntos: 60 },
+  { id: 17, titulo: 'Jalon al pecho', descripcion: 'Realiza 4 series de 10 repeticiones de jalón al pecho.', puntos: 50 },
+  { id: 18, titulo: 'Remo barra', descripcion: 'Realiza 4 series de 10 repeticiones de remo con barra.', puntos: 50 },
+  { id: 19, titulo: 'Peso muerto', descripcion: 'Haz 4 series de 8 repeticiones de peso muerto.', puntos: 60 },
+
+  // Retos de HOMBRO
+  { id: 20, titulo: 'Press mancuerna', descripcion: 'Haz 3 series de 10 repeticiones de press con mancuerna para hombros.', puntos: 40 },
+  { id: 21, titulo: 'Vuelo polea', descripcion: 'Realiza 3 series de 12 repeticiones de vuelo con polea.', puntos: 40 },
+  { id: 22, titulo: 'Posterior polea', descripcion: 'Haz 3 series de 12 repeticiones de apertura posterior en polea.', puntos: 40 },
+
+  // Retos de PIERNAS
+  { id: 23, titulo: 'Prensa de piernas', descripcion: 'Realiza 4 series de 15 repeticiones en la prensa de piernas.', puntos: 60 },
+  { id: 24, titulo: 'Sentadilla con barra', descripcion: 'Haz 4 series de 10 repeticiones de sentadillas con barra.', puntos: 70 },
+  { id: 25, titulo: 'Extensión cuadriceps', descripcion: 'Realiza 4 series de 15 repeticiones de extensión de cuadriceps.', puntos: 50 },
+  { id: 26, titulo: 'Peso muerto búlgaro', descripcion: 'Realiza 4 series de 12 repeticiones de peso muerto búlgaro.', puntos: 60 },
+
+  // Retos de CARDIO
+  { id: 27, titulo: 'Corre 5 km en la cinta', descripcion: 'Completa 5 km en la cinta de correr.', puntos: 60 },
+  { id: 28, titulo: 'Elíptica 45 minutos', descripcion: 'Realiza una sesión de 45 minutos en la elíptica.', puntos: 50 },
+  { id: 29, titulo: 'Corre 30 minutos sin parar', descripcion: 'Corre 30 minutos en la cinta sin parar.', puntos: 50 },
+];

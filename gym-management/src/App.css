@@ -1,0 +1,173 @@
+/* App.css */
+
+/* Colores personalizados */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; /* Blanco */
+  color: #000000; /* Negro */
+  overflow-y: hidden !important;
+}
+
+/* Barra de Navegación */
+.navbar {
+  width: 300px;
+  height: 100vh;
+  background-color: #1C1C1B; /* Negro */
+  color: #ffffff; /* Blanco */
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.navbar-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 200px;  /* Establece el ancho del logo */
+  height: 200px; /* Establece la altura del logo */
+  margin-bottom: 10px;
+}
+
+.navbar h2 {
+  color: #ffffff; /* Blanco */
+  text-align: center;
+  margin: 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.navbar ul li {
+  margin: 20px 0;
+}
+
+.navbar ul li a {
+  color: #ffffff; /* Blanco */
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  background-color: tomato; /* Rojo */
+  text-decoration: underline;
+}
+
+/* Estilos Generales */
+.highlight {
+  background-color: #ff0000 !important; /* Rojo */
+  border-radius: 50%;
+}
+
+.inscrito-detail-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 220px; /* Deja espacio suficiente para la navbar */
+  padding: 20px;
+}
+
+.info-y-pagos, .calendario-y-resumen {
+  background-color: #ffffff; /* Blanco */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.info-y-pagos {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.inscrito-info {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.pagos-info {
+  flex: 1;
+}
+
+.calendario, .resumen-asistencia {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.resumen-asistencia {
+  margin-right: 0; /* Elimina el margen derecho del último elemento para alinear bien */
+}
+
+h2, h3, h4, p {
+  margin: 10px 0;
+  color: #000000; /* Negro */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: #ffffff; /* Blanco */
+  border-radius: 8px;
+  overflow: hidden;
+  color: #000000; /* Negro */
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  color: #000000; /* Negro */
+}
+
+th {
+  background-color: #f2f2f2; /* Un gris claro para contraste */
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #ff0000; /* Rojo */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: tomato; /* Rojo oscuro */
+}
+
+.card_home:hover {
+  background-color: tomato; /* Un gris claro para el hover */
+  transition: background-color 0.3s ease;
+}
+
+.card-title {
+  color: #333; /* Negro para el título */
+}
+
+.card-text {
+  color: #666; /* Un gris para el texto */
+}
+
+.table-row_list:hover td {
+  background-color: #ffd00027 !important; /* Color similar al de la yema de huevo */
+}
